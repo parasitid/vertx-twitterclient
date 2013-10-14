@@ -2,6 +2,8 @@
 
 This verticle is a simple twitter client
 
+By now, 10/14/13, oauth signin is implemented. post statuses and query will soon be added.
+
 Please clone this and add the unit tests & doc for me ;)
 
 For a start, edit the conf.json, add your twitter app consumer key & secret, then try a 
