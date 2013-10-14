@@ -12,10 +12,7 @@ For a start, edit the conf.json, add your twitter app consumer key & secret, the
 
 oh yeah, i guess you already have a running vertx install, or else you wouldn't be here, would you ? 
 
-
-somewhere else in another shell : 
-
-edit a vertx groovy script "twitter-http.groovy" :
+somewhere else in another shell, edit a vertx groovy script "twitter-http.groovy" :
     import org.vertx.groovy.core.http.RouteMatcher
 
     def server = vertx.createHttpServer()
