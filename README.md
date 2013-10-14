@@ -6,11 +6,9 @@ Please clone this and add the unit tests & doc for me ;)
 
 For a start, edit the conf.json, add your twitter app consumer key & secret, then try a 
 
-./gradlew copyMod
-
-export VERTX_MODS=./build/mods
-
-vertx runmod mobocomu~twitter-verticle~0.1-SNAPSHOT -conf ./conf.json -cluster
+    ./gradlew copyMod
+    export VERTX_MODS=./build/mods
+    vertx runmod mobocomu~twitter-verticle~0.1-SNAPSHOT -conf ./conf.json -cluster
 
 oh yeah, i guess you already have a running vertx install, or else you wouldn't be here, would you ? 
 
