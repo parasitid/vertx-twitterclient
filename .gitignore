@@ -1,6 +1,9 @@
 *.class
 
 build/
+.gradle/
+
+private-conf.json
 
 # Package Files #
 *.jar
