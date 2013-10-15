@@ -1,0 +1,5 @@
+{
+    "address" : "twitter-client",
+    "oauth.consumerKey": "XXX",
+    "oauth.consumerSecret": "YYYY"
+}
